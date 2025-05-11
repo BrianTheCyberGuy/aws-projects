@@ -1,0 +1,23 @@
+ec2-llm-server/README.md
+# EC2 LLM Server Setup
+
+This project tracks the setup and configuration of an AWS EC2 instance used to eventually host a private LLM.
+
+---
+
+## ✅ What I Did
+
+- Created an EC2 instance using Amazon Linux 2
+- Chose instance type: `t2.micro` (Free Tier)
+- Created key pair: `my-key.pem` (saved to my PC)
+- Configured network to allow SSH from my IP only
+- Launched the instance successfully
+
+---
+
+## 🔜 Next Steps
+
+- Connect to the EC2 instance from my Windows computer
+- Install Docker, Python, and required LLM tools
+- Upload or pull LLM model files (Meta LLaMA or similar)
+- Expose an API to interact with the model
